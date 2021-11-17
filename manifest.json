@@ -1,0 +1,16 @@
+{
+    "name": "YouTube Chapterize",
+    "description": "Provides convenience functions to handle YouTube chapters.",
+    "version": "1.0",
+    "manifest_version": 3,
+    "permissions": ["storage", "activeTab", "scripting"],
+    "action": {
+        "default_popup": "popup.html"
+    },
+    "content_scripts": [
+        {
+          "matches": ["http://www.youtube.com/*","https://www.youtube.com/*"],
+          "js": ["inject.js"]
+        }
+      ]
+  }
