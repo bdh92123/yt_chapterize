@@ -1,9 +1,15 @@
 {
     "name": "YouTube Chapterize",
     "description": "Provides convenience functions to handle YouTube chapters.",
-    "version": "1.0",
+    "version": "1",
     "manifest_version": 3,
-    "permissions": ["storage", "activeTab", "scripting"],
+    "permissions": ["scripting"],
+    "icons": { 
+        "16": "icon.png",
+        "32": "icon.png",
+        "48": "icon.png",
+        "128": "icon128.png"
+    },
     "action": {
         "default_popup": "popup.html"
     },
